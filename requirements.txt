@@ -1,0 +1,26 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+
+# API
+fastapi
+uvicorn
+#linter
+
+# MLOps
+mlflow
+pydantic
+joblib
+
+# Testing and Linting
+pytest
+flake8
+black
+
+# Optional - Feature Engineering
+xverse
+woe
