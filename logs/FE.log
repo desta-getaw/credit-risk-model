@@ -1,0 +1,7 @@
+2025-07-01 11:56:08,475 INFO Data loaded successfully.
+2025-07-01 12:04:56,835 INFO Created aggregate features on Amount.
+2025-07-01 12:06:00,964 INFO Created aggregate features on Amount.
+2025-07-01 12:06:20,300 INFO categorical features are encoded using onehot encoder
+2025-07-01 12:09:08,230 INFO Encoding categorical features using one-hot encoder...
+2025-07-01 12:09:34,327 INFO Encoding categorical features using one-hot encoder...
+2025-07-01 14:08:06,693 INFO Data loaded successfully.

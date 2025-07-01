@@ -1,5 +1,5 @@
 # Start from lightweight Python image
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # Set workdir
 WORKDIR /app
@@ -13,7 +13,8 @@ COPY src/ ./src/
 COPY models/ ./models/
 
 # Expose FastAPI port
-EXPOSE 8000
+#EXPOSE 8000
+EXPOSE 8001
 
 # Run API server
-CMD ["uvicorn", "src.api.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "src.api.app:app", "--host", "0.0.0.0", "--port", "8001"]
